@@ -16,7 +16,7 @@ For the Qwen Camera Angles Rethink, It did a pretty good job on eachh of the pic
 The reason for what happened is probably both the spaces don't aquire models that's intentionally trained for analyzing the details of animals and other objects, and therefore both of the spaces are just used for angle switching only. I think the reason that the Qwen Image Edit Angles space did a better job than the other one is that it's better at telling the distance of an object to the camera, since it didn't confuse and merge the legs of the bee like the Qwen Camera Angles Rethink: there's one leg in front and the one leg in the back, which is almost covered by the front one. 
 
 ### Limitations
-(What couldn't I test? What might be different with other data/models/topics?)  
+I only input pictures of animals, and these spaces might be better at analyzing other stuff rather than animals. Also, When I tried to run another space I found on hugging face to increase the sample size for this topic, the system said I have hit the limit of quotas, which I didn't understand what that is and I can't run anything again for that day. 
 
 ### What I Want to Try Next
-(Where is my investigation going? What question am I circling?)
+I want to find a model / space that is trained for analyzing animals while having the ability of switching the angle of a picture. 
