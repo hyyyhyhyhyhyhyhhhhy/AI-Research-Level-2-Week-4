@@ -13,10 +13,10 @@ I expected both of the spaces to mess up the general shape of the animals in the
 For the Qwen Camera Angles Rethink, It did a pretty good job on eachh of the pictures, but the only thing missing is that it made one of the bee's legs larger for that photo in the output. Also for the goat picture, it made the fur of the goat longer than the original. For the Qwen Image Edit Angles, everything went super smooth, but for the rocks on the mountain in the goat picture, it apparently did not know what to do when it comes to the textures of the rocks: they're just chaotic is all. 
 
 ### Why I Think This Happened
-(My explanation — connect it to training data, model design, domain, etc.)
+The reason for what happened is probably both the spaces don't aquire models that's intentionally trained for analyzing the details of animals and other objects, and therefore both of the spaces are just used for angle switching only. I think the reason that the Qwen Image Edit Angles space did a better job than the other one is that it's better at telling the distance of an object to the camera, since it didn't confuse and merge the legs of the bee like the Qwen Camera Angles Rethink: there's one leg in front and the one leg in the back, which is almost covered by the front one. 
 
 ### Limitations
-(What couldn't I test? What might be different with other data/models/topics?)
+(What couldn't I test? What might be different with other data/models/topics?)  
 
 ### What I Want to Try Next
 (Where is my investigation going? What question am I circling?)
